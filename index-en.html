@@ -92,7 +92,7 @@ lang: en
             {% endif %}
         </div>
         <div class="col-md-4">
-            {% if site.author.stackoverflow or site.data.cv.author.programmingSkills %}
+            {% if site.author.stackoverflow or site.data.cv.author.programmingSkills.en %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Professional Skills</h3>
                 {% if site.author.stackoverflow %}
                 <div class="grid-block">
@@ -216,10 +216,10 @@ lang: en
                   </script>
                 </div>
                 {% endif %}
-                {% if site.data.cv.author.programmingSkills %}
+                {% if site.data.cv.author.programmingSkills.en %}
                 <div class="grid-block">
                     <ul class="list-unstyled list-skills">
-                        {% for programmingSkill in site.author.programmingSkills %}
+                        {% for programmingSkill in site.data.cv.author.programmingSkills.en %}
                             <li>
                                 {% if programmingSkill.name %}
                                     <span class="caption-skill">{{ programmingSkill.name }}</span>

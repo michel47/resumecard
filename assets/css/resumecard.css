@@ -1,5 +1,5 @@
 body {
-    background-color: #F0F0F0;
+    background-color: #F1F0F2;
     background-image: url(../img/bg.jpg);
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -37,7 +37,7 @@ a {
     padding: 20px 0;
     text-align: center;
     color: #f0f0f0;
-    background-color: #575757;
+    background-color: #575758;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -61,11 +61,15 @@ hr {
     margin-bottom: 20px;
 }
 
-.header img {
+.header .photo {
     float: left;
-    height: 85px;
+    height: 105px;
     margin-right: 15px;
     padding: 11px;
+}
+
+.flaf img {
+    padding: 1px;
 }
 
 .header li {

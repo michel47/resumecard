@@ -1,0 +1,155 @@
+# Site settings
+port: 4444
+title: Dr. Michel Combes's CV
+description: Senior Engineering Director
+favicon: /assets/img/favicon.png
+photo: /assets/img/michel-circ1.png
+pdf: DrMichelCombes-CV.pdf
+baseurl: "./"
+url: https://michelc.tk/resumecard
+rss_url: /pages/atom.xml
+google_analytics: UA-63653234-1
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+# Author settings
+author:
+  name: Michel Combes (PhD)
+  title: "Sr. Polymathic Engineer"
+  address: Ecublens, VD, Switzerland
+  email: michelc@gc-bank.org
+  link: http://gc-bank.org
+  weibo:
+  github: michel47
+  linkedin: mgc04
+  twitter: mgcombes
+  gavatar: /resumecard/assets/img/favicon.png
+  stackoverflow:
+#  stackoverflow: 4582127
+  workHistory:
+    - work1:
+      company: GC-Bank
+      location: Ecublens, Switzerland
+      title: President Director (CEO)
+      started: 2018
+      duration: (2018 - present)
+      description: currently developing cryptocurrencies and ledger technologies; architect blockRings for IPH*System; develop participatory token for U-Nion TV media; launched CERES platform as a transformative economy experiment; issued the first cryptomorphic currency LVC for a Festival in Miami; setup GC-bank portfolio and associated coin forge for minted currencies; developed non-proof of work blockchains; invented smart litigation and proof of witness for solution to double spending; developed non-consensus based ledger as byzantine resistant system; developed system robust to Sybil attack for identity management.
+    - work2:
+      company: Intel Inc. / Lemoptix S.A.
+      location: Lausanne, Switzerland
+      title: Lead Electrical Engineer R&D Architect / Head of Electrical Engineering
+      started: 2012
+      duration: (2012 - 2018)
+      description: developed light weight smart glasses; deploy production validation and characterization flow on manufacture line; build and Reamp up volume for [Vaunt smart glasses][Vaunt]; design MEMs electronic control and drive algorythm.  Developed picoprojector, wearable, Head up Displays; architect mems based picoprojector plateform, lead prototyping team; supervise Design and Manufacture of Headup displays, companion projectors and Monochrome Smart Glasses; lead the Engineegimg Team responsible for design of company chipset.
+    - work3:
+      company: Intersil Inc.
+      location: Milpitas, USA
+      title: Principal Engineer
+      started: 2010
+      duration: (2010 - 2011)
+      description: developed laser drivers, reference design, video processor; build reference designs for pico-projector, prepared CES demos ( worked with major customers in the field Syndiant, Micron, LGE, MVIS, Bosh, bTendo ); defined ARM based video processor architecture for MEMs scanner display systems, geometric correction, mixed signal servoing of laser beams, temperature and power management, white balance contolled loops; published datasheet and supporting documentations for products release; designed drivers for native / direct green lasers (Nishia, Soraa, OSRAM).
+    - work4:
+      company: Spatial Photonics Inc.
+      location: Sunnyvale, USA
+      title: Sr. Electrical Engineering Manager
+      started: 2006
+      duration: (2006 - 2008)
+      description: developed pico-projectors and MEMs displays; developed FPGA demonstration boards for MEMs technology display; assembled bulk DC convertor for high efficiency LED illumination; developed algorithm for pixel rendering in a video system using Pulse Width Modulation (PWM); coded RTL for a dithered gamma correction module; directed LED projector System Architecture team.
+    - work5:
+      company: Reflectivity Corp.
+      location: Mountain View, USA
+      title: Principal Electrical Engineer
+      started: 2003
+      duration: (2003 - 2006)
+      description: developed Image Quality Algorithm for HDTV; developed algorithm for pixel rendering in a video system using Pulse Width Modulation (PWM); implemented flash-based and FSM-based PWM sequencers on Spartan3 board; determined color filter optimization design rules using CIE-1976 space.
+    - work6:
+      company: Orient Direct Inc.
+      location: Santa Cruz, USA
+      title: ASIC Engineer
+      duration: (2003 - 2003)
+      description: developed embedded still camera; programmed de-mosaïcing and image processing unit design; designed DDR arbiter between graphic CPU, memory and imager; developed video auto-white balance algorithm; oversaw prototype manufacturing for a wrist watch camera.
+    - work7:
+      company: APT Technologies Inc.
+      location: SantaCruz, USA
+      title: Mixed Signal Design Director
+      started: 2001
+      duration: (2001 - 2002)
+      description: developed Serial ATA / High Speed IOs and switches; directed the Analog design Group of APT technologies; architected Out-of-Band Signaling for HDD / IDE interface; managed analog filters amplifiers, voltage references, signal detection and Gibabit SERDES module designs; prototyped Serial-ATA host bus adapter and routers enabling RAID and SCSI low cost solutions; deployed ASIC methodology and provided tools and EDA support to the company; supported Layout design, chip integration, verilog coding, modelsim and SPICE simulations, synplify, leonardo synthesis, place and route, design space exploration and optimization script using AI/CI technology; co-edited Serial ATA early specification and pushed standard.
+    - work8:
+      company: Infineon Technologies Corp.
+      location: SantaCruz, USA
+      title: System On Chip Integration Manager
+      started: 1999
+      duration: (1999 - 2001)
+      description: developed Read/Write Channel, HDD Controller; lead SoC integration team to acheive a "one-chip" disk drive; Defined test plan and validation strategy for HDD Controller; managed IC design team to implement SATA PHY and Transport layers; coded, simulated, and evaluated MAC module for HDD controller.
+    - work9:
+      company: Texas Instruments Corp.
+      location: Dallas, USA / Nice, France
+      title: "Digital Design Team Manager - MGTS"
+      started: 1995
+      duration: (1995 - 1999)
+      description: 'Mentored group design activity by establishing methodology and procedures that ensured a high-level quality product using state-of-the-art tools; designed HDD (700MHz) high performance architectures (Viterbi decoder) and fast arithmetic units; took full ownership of DSP+ARM mega-modules electrical design (tremendous success: 220M units); globally promoted an electrical "know-how" throughout his team and other organizations around the world: France, Italy, Japan, Houston, Chicago; defined the design strategy for new wireless product generations by providing specifications, end-user guidelines, tools, flows and trainings; participated in the cost reduction definition process and advanced libraries via technology steering committee.'
+    - work10:
+      company: Bull S.A.
+      location: Les Clayes-sous-Bois, France
+      title: Integrated Circuits Development Engineer
+      started: 1991
+      duration: (1990 - 1994)
+      description: 'Pioneered using Delay Locked Loop (DLL) for clock recovery and full digital PLLs; designed and architected various mixed-signal complex circuits: a 0.5u CMOS prototype for 1.2Gb/s serial link compatible IEEE 1355, a 0.8u packet-switching router 8Gbps, super scalar RISC micro processor, and a delta-sigma audio­band analog to digital converter (TMS320AD50); designed key modules: asynchronous FIFOs, registers banks, Digital PLLs, and a 32b VLIW execution unit.'
+
+  educationHistory:
+    - education1:
+      organization: "Pierre & Marie Curie University"
+      location: Paris, France
+      degree: Ph.D.
+      major: Micro Electronics & Engineering
+      started: 1991
+      duration: (1991 - 1994)
+      description: Phase and Delay Locked Loop
+    - education2:
+      organization: Electronics Superior Institute of Paris
+      location: Paris, France
+      degree: Master
+      major: Computer Engineering
+      started: 1989
+      duration: (1989 - 1991)
+      description: ""
+    
+  languages:
+    - language1:
+      name: French
+      proficiency: Native
+    - language2:
+      name: English
+      proficiency: Professional
+    - language3:
+      name: German
+      proficiency: Limited
+  programmingSkills:
+    - skill1:
+      name: Team Leadership / People Skill
+      percentage: 100%
+    - skill2:
+      name: System Architect
+      percentage: 100%
+    - skill3:
+      name: Deep Learning & Big Data
+      percentage: 60%
+    - skill2:
+      name: Blockchain / Ledger Technologies
+      percentage: 100%
+    - skill:
+      name: Software Dev.
+      percentage: 40%
+    - skill5:
+      name: Hardware Dev.
+      percentage: 80%
+    - skill6:
+      name: SoC, ASIC, FPGA
+      percentage: 100%
+    - skill4:
+      name: Perl, Python, Verilog, ...
+      percentage: 100%

@@ -1,14 +1,14 @@
 ---
-layout: default
-lang: en
+layout: default-fr
+lang: fr
 ---
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="col-md-8">
-            {% if site.data.cv.author.workHistory.en %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
+            {% if site.data.cv-fr.author.workHistory %}
+                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Parcours Professionnel</h3>
                 <ul class="timeline">
-                    {% for work in site.data.cv.author.workHistory.en %}
+                    {% for work in site.data.cv-fr.author.workHistory %}
                         <li class="timeline-inverted">
                             {% if work.started %}
                                 <div class="timeline-badge info">{{ work.started }}</div>
@@ -46,10 +46,10 @@ lang: en
                     {% endfor %}
                 </ul>
             {% endif %}
-            {% if site.data.cv.author.educationHistory.en %}
-                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
+            {% if site.data.cv-fr.author.educationHistory %}
+                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Parcours Académique</h3>
                 <ul class="timeline">
-                    {% for education in site.data.cv.author.educationHistory.en %}
+                    {% for education in site.data.cv-fr.author.educationHistory %}
                         <li class="timeline-inverted">
                             {% if education.started %}
                                 <div class="timeline-badge info">{{ education.started }}</div>
@@ -92,8 +92,8 @@ lang: en
             {% endif %}
         </div>
         <div class="col-md-4">
-            {% if site.author.stackoverflow or site.data.cv.author.programmingSkills %}
-                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Professional Skills</h3>
+            {% if site.author.stackoverflow or site.data.cv-fr.author.programmingSkills %}
+                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Compétences Professionelles </h3>
                 {% if site.author.stackoverflow %}
                 <div class="grid-block">
                   <p><a href="//stackoverflow.com/users/{{ site.author.stackoverflow }}"><img src="//stackoverflow.com/users/flair/{{ site.author.stackoverflow }}.png"></a></p>
@@ -216,10 +216,10 @@ lang: en
                   </script>
                 </div>
                 {% endif %}
-                {% if site.data.cv.author.programmingSkills %}
+                {% if site.data.cv-fr.author.programmingSkills %}
                 <div class="grid-block">
                     <ul class="list-unstyled list-skills">
-                        {% for programmingSkill in site.author.programmingSkills %}
+                        {% for programmingSkill in site.data.cv-fr.author.programmingSkills %}
                             <li>
                                 {% if programmingSkill.name %}
                                     <span class="caption-skill">{{ programmingSkill.name }}</span>
@@ -237,12 +237,12 @@ lang: en
                 </div>
                 {% endif %}
             {% endif %}
-            {% if site.data.cv.author.languages.en %}
+            {% if site.data.cv-fr.author.languages %}
                 <div class="deviter"></div>
-                <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span> Language Skills</h3>
+                <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span> Compétences Linguistiques </h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-strip">
-                        {% for language in site.data.cv.author.languages.en %}
+                        {% for language in site.data.cv-fr.author.languages %}
                             {% if language.name %}
                                 {% if language.proficiency %}
                                     <li>

@@ -1,0 +1,121 @@
+# Site settings
+port: 4444
+title: Dr. Michel Combes's CV
+description: Senior Engineering Director
+favicon: /assets/img/favicon.png
+baseurl: /resumecard
+url: https://michelc.tk/resumecard
+rss_url: /pages/atom.xml
+google_analytics: UA-63653234-1
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+# Author settings
+author:
+  name: Michel Combes
+  title: "Sr. Polymathic Engineer (PhD)"
+  address: Ecublens, VD, Switzerland
+  email: michelc#gc-bank.org
+  link: http://gc-bank.org
+  weibo:
+  github: michelc
+  linkedin: mgcombes
+  twitter: mgcombes
+  gavatar: /resumecard/assets/img/favicon.png
+  stackoverflow:
+#  stackoverflow: 4582127
+  workHistory:
+    - work1:
+      company: Intel Corp.
+      location: Lausanne, Switzerland
+      title: Lead Electrical Engineer R&D Architect
+      started: 2015
+      duration: (2015 - 2018)
+      description: developed light weight smart glasses; deploy production validation and characterization flow on manufacture line; build and Reamp up volume for [Vaunt smart glasses][Vaunt]; design MEMs electronic control and drive algorythm.
+    - work2:
+      company: Lemoptix S.A.
+      location: Lausanne, Switzerland
+      title: Head of Electrical Engineering
+      started: 2012
+      duration: (2012 - 2015)
+      description: developed picoprojector, wearable, Head up Displays; architect mems based picoprojector plateform, lead prototyping team; supervise Design and Manufacture of Headup displays, companion projectors and Monochrome Smart Glasses; lead the Engineegimg Team responsible for design of company chipset.
+    - work3:
+      company: Intersil Inc.
+      location: Milpitas, USA
+      title: Principal Engineer
+      started: 2010
+      duration: (2010 - 2011)
+      description: developed laser drivers, reference design, video processor;
+   build reference designs for pico-projector, prepared CES demos ( worked with major customers in the field Syndiant, Micron, LGE, MVIS, Bosh, bTendo ); defined ARM based video processor architecture for MEMs scanner display systems, geometric correction, mixed signal servoing of laser beams, temperature and power management, white balance contolled loops; published datasheet and supporting documentations for products release; designed drivers for native / direct green lasers (Nishia, Soraa, OSRAM).
+    - work4:
+      company: Spatial Photonics Inc.
+      location: Sunnyvale, USA
+      title: Sr. Electrical Engineering Manager
+      started: 2006
+      duration: (2006 - 2008)
+      description: developed pico-projectors and MEMs displays; developed FPGA demonstration boards for MEMs technology display; assembled bulk DC convertor for high efficiency LED illumination; developed algorithm for pixel rendering in a video system using Pulse Width Modulation (PWM); coded RTL for a dithered gamma correction module; directed LED projector System Architecture team.
+    - work5:
+      company: APT Technologies Inc.
+      location: SantaCruz, USA
+      title: Mixed Signal Design Director
+      started: 2001
+      duration: (2001 - 2002)
+      description: developed Serial ATA / High Speed IOs and switches; directed the Analog design Group of APT technologies; architected Out-of-Band Signaling for HDD / IDE interface; managed analog filters amplifiers, voltage references, signal detection and Gibabit SERDES module designs; prototyped Serial-ATA host bus adapter and routers enabling RAID and SCSI low cost solutions; deployed ASIC methodology and provided tools and EDA support to the company; supported Layout design, chip integration, verilog coding, modelsim and SPICE simulations, synplify, leonardo synthesis, place and route, design space exploration and optimization script using AI/CI technology; co-edited Serial ATA early specification and pushed standard.
+    - work6:
+      company: Infineon Technologies Corp.
+      location: SantaCruz, USA
+      title: System On Chip Integration Manager
+      started: 1999
+      duration: (1999 - 2001)
+      description: developed Read/Write Channel, HDD Controller; lead SoC integration team to acheive a "one-chip" disk drive; Defined test plan and validation strategy for HDD Controller; managed IC design team to implement SATA PHY and Transport layers; coded, simulated, and evaluated MAC module for HDD controller.
+
+  educationHistory:
+    - education1:
+      organization: "Pierre & Marie Curie University"
+      location: Paris, France
+      degree: Ph.D.
+      major: Micro Electronics & Engineering
+      started: 1989
+      duration: (1991 - 1994)
+      description: Phase and Delay Locked Loop
+    - education2:
+      organization: Electronics Superior Institute of Paris
+      location: Paris, France
+      degree: Master
+      major: Computer Engineering
+      started: 1989
+      duration: (1989 - 1991)
+      description: ""
+    
+  languages:
+    - language1:
+      name: French
+      proficiency: Native
+    - language2:
+      name: English
+      proficiency: Professional
+    - language3:
+      name: German
+      proficiency: Limited
+  programmingSkills:
+    - skill1:
+      name: Team Leadership
+      percentage: 100%
+    - skill2:
+      name: Systeme Architect
+      percentage: 100%
+    - skill3:
+      name: Deep Learning & Big Data
+      percentage: 60%
+    - skill4:
+      name: Software Dev.
+      percentage: 40%
+    - skill5:
+      name: Hardware Dev.
+      percentage: 80%
+    - skill6:
+      name: SoC, ASIC, FPGA
+      percentage: 100%
