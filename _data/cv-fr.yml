@@ -142,38 +142,38 @@ author:
     
   languages:
     - language1:
-      name: French
-      proficiency: Native
+      name: Français
+      proficiency: Natif
     - language2:
-      name: English
-      proficiency: Professional
+      name: Anglais
+      proficiency: Professionnel
     - language3:
-      name: German
-      proficiency: Limited
+      name: Allemand
+      proficiency: Débutant
 
   programmingSkills:
     - skill1:
-      name: Team Leadership / People Skill
+      name: Leadership d'Équipe / People Skill
       percentage: 100%
     - skill2:
-      name: System Architect
+      name: Architecture de Système
       percentage: 100%
     - skill3:
-      name: Deep Learning & Big Data
+      name: Aprentissage en profondeur / Base de Données
       percentage: 60%
-    - skill2:
-      name: Blockchain / Ledger Technologies
+    - skill4:
+      name: Bloc chaîne / Technologie de Cahier Comptable
       percentage: 100%
     - skill:
-      name: Software Dev.
+      name: Développent logiciel
       percentage: 40%
     - skill5:
-      name: Hardware Dev.
+      name: Développent matériel
       percentage: 80%
     - skill6:
       name: SoC, ASIC, FPGA
       percentage: 100%
     - skill4:
-      name: Perl, Python, Verilog, ...
+      name: Perl, Python, JS, VHDL, Verilog, ...
       percentage: 100%
 

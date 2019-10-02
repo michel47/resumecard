@@ -243,12 +243,12 @@ linkedin: michel-combes
                 </div>
                 {% endif %}
             {% endif %}
-            {% if site.data.cv-fr.author.languages %}
+            {% if site.data.cv.author.languages.fr %}
                 <div class="deviter"></div>
                 <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span> Compétences Linguistiques </h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-strip">
-                        {% for language in site.data.cv-fr.author.languages %}
+                        {% for language in site.data.cv.author.languages.fr %}
                             {% if language.name %}
                                 {% if language.proficiency %}
                                     <li>

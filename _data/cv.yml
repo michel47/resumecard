@@ -158,13 +158,16 @@ author:
       - language2:
         name: Anglais
         proficiency: Professional
+      - language3:
+        name: Allemand
+        proficiency: Limité
     en:
-      - language1:
-        name: French
-        proficiency: Native
       - language2:
         name: English
         proficiency: Professional
+      - language1:
+        name: French
+        proficiency: Native
       - language3:
         name: German
         proficiency: Limited
@@ -205,5 +208,5 @@ author:
         name: SoC, ASIC, FPGA
         percentage: 100%
       - skill4:
-        name: Perl, Python, Verilog, ...
+        name: Perl, Python, Javascript, Verilog, ...
         percentage: 100%

@@ -2,21 +2,26 @@
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="col-sm-5">
-                <img class=photo src="{{ site.photo | prepend: site.baseurl }}" title="photo" alt="Photo">
+                <a href=about><img class=photo src="{{ site.photo | prepend: site.baseurl }}" title="photo" alt="Photo"></a>
                 <h4>{{ site.author.name }}</h4>
-                <p>{{ site.author.title.fr }}</p>
-                <p class="muted">{{ site.author.address }}</p>
-                <p><i class="fa fa-phone fa-fw"></i> {{ site.author.phone }}</p>
+                <p><a href=hCard/hCard.htm><i class="fa fa-id-card-o fa-fw"></i></a> {{ site.author.title.fr }}</p>
+                <p class="muted"><i class="fa fa-map-marker fa-fw"></i> {{ site.author.address }}</p>
+                <p><i class="fa fa-phone fa-fw"></i> <a href=https://wa.me/+41767609400>{{ site.author.phone }}</a></p>
                 <div class="clearfix"></div>
             </div>
             <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
+                {% if page.email %}
+                <p><i class="fa fa-envelope fa-fw"></i> <a href="mailto:{{page.email}}">{{ page.email }}</a></p>
+                {% else %}
                 <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
+                {% endif %}
                 <p><i class="fa fa-github fa-fw"></i><a href="//gist.github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
                 {% if page.linkedin %}
                 <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/{{ page.linkedin }}" target="_blank"> linkedin.com/in/{{ page.linkedin }} </a></p>
                 {% else %}
                 <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>
                 {% endif %}
+                <p><i class="fa fa-telegram fa-fw"></i> <a href="//t.me/{{ site.author.telegram }}" target="_blank">  te.me/{{ site.author.telegram }} </a></p>
                 <p><i class="fa fa-twitter fa-fw"></i> <a href="//twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
             </div>
             <div class="col-sm-3 visible-md-block visible-lg-block">

@@ -135,7 +135,7 @@ author:
       proficiency: Native
     - language2:
       name: English
-      proficiency: Professional
+      proficiency: Fluent / Professional
     - language3:
       name: German
       proficiency: Limited
@@ -144,13 +144,13 @@ author:
       name: Team Leadership / People Skill
       percentage: 100%
     - skill2:
-      name: System Architect
+      name: Blockchain / Ledger Technologies
       percentage: 100%
     - skill3:
       name: Deep Learning & Big Data
       percentage: 60%
     - skill2:
-      name: Blockchain / Ledger Technologies
+      name: System Architect
       percentage: 100%
     - skill:
       name: Software Dev.
@@ -162,5 +162,5 @@ author:
       name: SoC, ASIC, FPGA
       percentage: 100%
     - skill4:
-      name: Perl, Python, Verilog, ...
+      name: Perl, Python, Javascript, Verilog, ...
       percentage: 100%

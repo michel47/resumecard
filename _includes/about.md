@@ -1,6 +1,3 @@
----
-layout: page
----
 
 ![photo](https://michelc.tk/assets/images/michelc.png)
 
