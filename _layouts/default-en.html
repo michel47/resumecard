@@ -9,13 +9,7 @@
 
   <body>
 
-  {% if page.lang == 'en' %}
     {% include header-en.html %}
-  {% elsif page.lang == 'fr' %}
-    {% include header-fr.html %}
-  {% else %}
-    {% include header.html %}
-  {% endif %}
 
     <div class="page-content">
       <div class="wrapper">
@@ -23,13 +17,7 @@
       </div>
     </div>
 
-  {% if page.lang == 'en' %}
-    {% include footer-en.html %}
-  {% elsif page.lang == 'fr' %}
-    {% include footer-fr.html %}
-  {% else %}
     {% include footer.html %}
-  {% endif %}
 	{% include googleanalytics.html %}
   </body>
 

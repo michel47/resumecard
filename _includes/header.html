@@ -16,9 +16,16 @@
                 <p><i class="fa fa-twitter fa-fw"></i> <a href="//twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
             </div>
             <div class="col-sm-3 visible-md-block visible-lg-block">
+                <a href="https://www.sejda.com/html-to-pdf?save-link" target="_blank" class="btn btn-dark"><i class="icon-file icon-white"></i> Save to PDF </a>
                 <a href="{{ site.data.cv.pdf }}" class="btn btn-dark"><i class="icon-file icon-white"></i> Download.pdf </a>
-<br><a href=index-fr.html><img class=flag alt="ch-flag" height=32 src="{{ 'assets/img/ch_circ.png' | prepend: site.baseurl }}"></a>
+<br>
+            {% if page.lang == 'en' %}
 <a href=index-en.html><img class=flag alt="uk-flag" height=32 src="{{ 'assets/img/uk_circ.png' | prepend: site.baseurl }}"></a>
+<a href=index-fr.html><img class=flag alt="ch-flag" height=32 src="{{ 'assets/img/ch_circ.png' | prepend: site.baseurl }}"></a>
+            {% else %}
+<a href=index-fr.html><img class=flag alt="ch-flag" height=32 src="{{ 'assets/img/ch_circ.png' | prepend: site.baseurl }}"></a>
+<a href=index-en.html><img class=flag alt="uk-flag" height=32 src="{{ 'assets/img/uk_circ.png' | prepend: site.baseurl }}"></a>
+            {% endif %}
             </div>
         </div>
     </div>

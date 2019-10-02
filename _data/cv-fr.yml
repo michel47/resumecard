@@ -15,7 +15,7 @@ author:
   stackoverflow:
 #  stackoverflow: 4582127
 #  workHistory:
-#    - work0:
+#    - work-1:
 #      company: GC-Bank
 #      location: Ecublens, Switzerland
 #      title: distributed ledger architect
@@ -23,18 +23,28 @@ author:
 #      duration: (2018 - present)
 #      description: developped cryptocurrencies and ledger technologies; architect blockRings for IPH*System; develop participatory token for collective; launched CERES platform as a transformative economy experiment; issued the first cryptomorphic currency LVC for a Festival in Miami; setup GC-bank portfolio and associated coin forge for minted currencies; developed non-proof of work blockchains; invented smart litigation and proof of witness for solution to double spending, and proof of membership for authentication, developed non-consensus based ledger as byzantine resistant system; developed system robust to Sybil attack for identity management.
   workHistory:
+    - work0:
+      company: Healthium Technologies
+      title: Chercheur indépendant
+      location: Écublens, Suisse
+      #started: 2018
+      current: 2019
+      duration: (2018 - present)
+      description: développement de solution pour la quantification santé personnelle et enregistrement sécurisé des données utilisant la technologie de cahier de compte distribué.
+
     - work1:
       company: Intel Semiconducteur.
       title: Ingénieur électronique principal et architecte recherche
       location: Lausanne, Suisse
       started: 2015
+      ended: 2018
       duration: (2015 - 2018)
       description: déployment de la chaine de production avec validation et caractérisation; construction et établissement le volume pour les lunettes intelligentes [<a href=http://duckduckgo.com/?q=!g+Vaunt+smart+glasses>Vaunt</a>]; conception d'électronique et algorithmes  de contrôle des MEMs.
     - work2:
       company: Lemoptix S.A.
       location: Lausanne, Switzerland
       title: Directeur d'équipe ingénierie électronique
-      started: 2012
+      ended: 2015
       duration: (2012 - 2015)
       description: Architecture de plateforme pour projecteur à micro-miroir; direction de l'équipe responsable des prototypes, pour les projecteurs à affichage tête haute ainsi que de lunette monochrome; conception et réalisation du jeu de circuits de la compagnie.
 
@@ -43,16 +53,19 @@ author:
       title: Ingénieur Principal
       location: Milpitas, USA
       started: 2010
+      ended: 2011
       duration: (2010 - 2011)
       description: "Conception de projecteur pico de référence, préparation des démonstrations CES (à travailler avec les principaux clients dans le domaine Syndiant, Micron, LGE, MVIS, Bosh, bTendo ); Définition d'un processeur video a base de ARM applique aux système d'affichage basée sur les MEMs; corrections géométriques de control des faiseaux laser, boucle d'asservissement pour la gestion des puissances et température, et balance des couleurs; publication de spécification et des documents de support pour la délivrance du produit; Conception des contrôles pour lasers verts directs (Nishia, Soraa, OSRAM)."
 
-    - work4:
-      company: Reflectivity, Spatial Photonics, APT, Infineon, Texas Instruments, Bull S.A.
-      location: Sunnyvale, USA; Dallas, USA; Nice, FR; Paris, FR
+    - workx:
+      company: Reflectivity, Spatial Photonics, APT Technologies,
+#      company: Reflectivity, Spatial Photonics, APT, Infineon, Texas Instruments, Bull S.A.
+      location: Silicon Valley, California
       title: Directeur en système intégrés et ingénieur en conception électronique
       started: 1991
-      duration: (1991 - 2008)
-      description: tenue de postes variés dans l'industrie électronique.
+      ended: 2008
+      duration: (2001 - 2008)
+      description: tenue de postes variés en Startup pour l'industrie électronique.
 
 #    - work4:
 #      company: Spatial Photonics Inc.
@@ -83,20 +96,22 @@ author:
 #      started: 2001
 #      duration: (2001 - 2002)
 #      description: developed Serial ATA / High Speed IOs and switches; directed the Analog design Group of APT technologies; architected Out-of-Band Signaling for HDD / IDE interface; managed analog filters amplifiers, voltage references, signal detection and Gibabit SERDES module designs; prototyped Serial-ATA host bus adapter and routers enabling RAID and SCSI low cost solutions; deployed ASIC methodology and provided tools and EDA support to the company; supported Layout design, chip integration, verilog coding, modelsim and SPICE simulations, synplify, leonardo synthesis, place and route, design space exploration and optimization script using AI/CI technology; co-edited Serial ATA early specification and pushed standard.
-#    - work8:
-#      company: Infineon Technologies Corp.
-#      location: SantaCruz, USA
-#      title: System On Chip Integration Manager
-#      started: 1999
-#      duration: (1999 - 2001)
-#      description: developed Read/Write Channel, HDD Controller; lead SoC integration team to acheive a "one-chip" disk drive; Defined test plan and validation strategy for HDD Controller; managed IC design team to implement SATA PHY and Transport layers; coded, simulated, and evaluated MAC module for HDD controller.
-#    - work9:
-#      company: Texas Instruments Corp.
-#      location: Dallas, USA / Nice, France
-#      title: "Digital Design Team Manager - MGTS"
-#      started: 1995
-#      duration: (1995 - 1999)
-#      description: 'Mentored group design activity by establishing methodology and procedures that ensured a high-level quality product using state-of-the-art tools; designed HDD (700MHz) high performance architectures (Viterbi decoder) and fast arithmetic units; took full ownership of DSP+ARM mega-modules electrical design (tremendous success: 220M units); globally promoted an electrical "know-how" throughout his team and other organizations around the world: France, Italy, Japan, Houston, Chicago; defined the design strategy for new wireless product generations by providing specifications, end-user guidelines, tools, flows and trainings; participated in the cost reduction definition process and advanced libraries via technology steering committee.'
+    - work8:
+      company: Infineon Technologies Corp.
+      location: SantaCruz, USA
+      title: System On Chip Integration Manager
+      started: 1999
+      ended: 2001
+      duration: (1999 - 2001)
+      description: developed Read/Write Channel, HDD Controller; lead SoC integration team to acheive a "one-chip" disk drive; Defined test plan and validation strategy for HDD Controller; managed IC design team to implement SATA PHY and Transport layers; coded, simulated, and evaluated MAC module for HDD controller.
+    - work9:
+      company: Texas Instruments Corp.
+      location: Dallas, USA / Nice, France
+      title: "Digital Design Team Manager - MGTS"
+      started: 1995
+      ended: 1999
+      duration: (1995 - 1999)
+      description: 'Mentored group design activity by establishing methodology and procedures that ensured a high-level quality product using state-of-the-art tools; designed HDD (700MHz) high performance architectures (Viterbi decoder) and fast arithmetic units; took full ownership of DSP+ARM mega-modules electrical design (tremendous success: 220M units); globally promoted an electrical "know-how" throughout his team and other organizations around the world: France, Italy, Japan, Houston, Chicago; defined the design strategy for new wireless product generations by providing specifications, end-user guidelines, tools, flows and trainings; participated in the cost reduction definition process and advanced libraries via technology steering committee.'
 #    - work10:
 #      company: Bull S.A.
 #      location: Les Clayes-sous-Bois, France
@@ -112,6 +127,7 @@ author:
       degree: Ph.D.
       major: Micro Electronics & Engineering
       started: 1991
+      ended: 1994
       duration: (1991 - 1994)
       description: Phase and Delay Locked Loop
     - education2:
@@ -120,6 +136,7 @@ author:
       degree: Master
       major: Computer Engineering
       started: 1989
+      ended: 1991
       duration: (1989 - 1991)
       description: ""
     
@@ -133,6 +150,7 @@ author:
     - language3:
       name: German
       proficiency: Limited
+
   programmingSkills:
     - skill1:
       name: Team Leadership / People Skill
@@ -158,3 +176,4 @@ author:
     - skill4:
       name: Perl, Python, Verilog, ...
       percentage: 100%
+

@@ -1,15 +1,18 @@
+--- # Jekyll config file
+# vim: nospell
 # Site settings
-port: 4444
+port: 4000
 lang: en
-title: Dr. Michel Combes's CV
+title: Dr. Michel Combes's Resume
 description: Directeur Ingéniérie
 favicon: /assets/img/favicon.png
 photo: /assets/img/michel-circ1.png
 #pdf: DrMichelCombes-CV.pdf
-baseurl: "./"
-url: https://michelc.tk/resumecard
+baseurl: ''
+url: https://mcombes.resumesm.gq/
 rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+google_analytics: UA-146588632-1
+search: https://duckduckgo.com/?q
 
 # Build settings
 markdown: kramdown
@@ -18,6 +21,7 @@ exclude: [vendor]
 
 # Author settings
 author:
+  fullname: Dr. Michel G. Combes
   name: Michel Combes (PhD)
   title:
     fr: "Ingénieur Polymathique avec expérience"
@@ -29,6 +33,7 @@ author:
   weibo:
   github: michel47
   linkedin: mgc04
+  linkedin: michel-combes
   twitter: mgcombes
   gavatar: /resumecard/assets/img/favicon.png
   stackoverflow:

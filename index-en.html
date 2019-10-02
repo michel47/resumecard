@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: en
+linkedin: mgc04
 ---
 <div class="container-fluid">
     <div class="row-fluid">
@@ -10,8 +11,12 @@ lang: en
                 <ul class="timeline">
                     {% for work in site.data.cv.author.workHistory.en %}
                         <li class="timeline-inverted">
+                            {% if work.ended %}
+                                <div class="timeline-badge info ended">{{ work.ended }}</div>
+                            {% else %}
                             {% if work.started %}
                                 <div class="timeline-badge info">{{ work.started }}</div>
+                            {% endif %}
                             {% endif %}
                             <div class="timeline-panel grid-block">
                                 <div class="timeline-heading">
@@ -51,7 +56,9 @@ lang: en
                 <ul class="timeline">
                     {% for education in site.data.cv.author.educationHistory.en %}
                         <li class="timeline-inverted">
-                            {% if education.started %}
+                            {% if education.ended %}
+                                <div class="timeline-badge info ended">{{ education.ended }}</div>
+                            {% else %}
                                 <div class="timeline-badge info">{{ education.started }}</div>
                             {% endif %}
                             <div class="timeline-panel grid-block">
