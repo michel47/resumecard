@@ -2,8 +2,8 @@
 port: 4444
 title: Dr. Michel Combes's CV
 description: Senior Engineering Director
-favicon: /assets/img/favicon.png
-photo: /assets/img/michel-circ1.png
+favicon: assets/img/favicon.png
+photo: assets/img/michel-circ1.png
 pdf: DrMichelCombes-CV.pdf
 baseurl: "./"
 url: https://michelc.tk/resumecard
@@ -26,7 +26,7 @@ author:
   github: michel47
   linkedin: mgc04
   twitter: mgcombes
-  gavatar: /resumecard/assets/img/favicon.png
+  gavatar: resumecard/assets/img/favicon.png
   stackoverflow:
 #  stackoverflow: 4582127
   workHistory:

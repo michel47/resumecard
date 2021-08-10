@@ -15,7 +15,7 @@ author:
   github: michel47
   linkedin: mgc04
   twitter: mgcombes
-  gavatar: /resumecard/assets/img/favicon.png
+  gavatar: resumecard/assets/img/favicon.png
   stackoverflow:
   stackoverflow: 4582127
   workHistory:
@@ -28,7 +28,7 @@ author:
         #started: 2019
         duration: (2019 - present)
         description: |-
-           develop SHQ-ledger, and launching weareable lab-on-chip project to
+           developed SHQ-ledger, and launched weareable lab-on-chip project to
            feed medical research with personalized data, while still preserving
            security and privacy for the patient.
       - work11:
