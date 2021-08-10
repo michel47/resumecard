@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Dr. Michel Combes Application for Head of Hardware
 
 
